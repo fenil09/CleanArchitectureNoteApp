@@ -1,4 +1,4 @@
-package com.plcoding.cleanarchitecturenoteapp.ui.theme
+package com.Fenil.cleanarchitecturenotesapp.ui
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
@@ -25,4 +25,13 @@ val Typography = Typography(
         fontSize = 12.sp
     )
     */
+)
+
+
+val typography =androidx.compose.material.Typography(
+    body1 = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.Normal,
+        fontSize = 16.sp
+    )
 )

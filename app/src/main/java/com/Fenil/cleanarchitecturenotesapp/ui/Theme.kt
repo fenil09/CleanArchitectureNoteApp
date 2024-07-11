@@ -1,9 +1,10 @@
-package com.plcoding.cleanarchitecturenoteapp.ui.theme
-
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Color.Companion.DarkGray
+import com.Fenil.cleanarchitecturenotesapp.ui.LightBlue
+import com.Fenil.cleanarchitecturenotesapp.ui.typography
 
 private val DarkColorPalette = darkColors(
     primary = Color.White,
@@ -17,7 +18,7 @@ private val DarkColorPalette = darkColors(
 fun CleanArchitectureNoteAppTheme(darkTheme: Boolean = true, content: @Composable() () -> Unit) {
     MaterialTheme(
         colors = DarkColorPalette,
-        typography = Typography,
+        typography = typography,
         shapes = Shapes,
         content = content
     )
